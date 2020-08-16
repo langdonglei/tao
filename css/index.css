@@ -1,0 +1,176 @@
+@import url("./reset.css");
+@import url("./iconfont.css");
+/*头部信息*/
+#headMessage {
+}
+#headMessage ul {
+}
+#headMessage li {
+    float       :left;
+    font-size   :0;
+    line-height :35px;
+    padding     :0 6px;
+}
+#headMessage li.line {
+    font-size :12px;
+    color     :#dddddd;
+}
+#headMessage a {
+    font-size :12px;
+    color     :#6c6c6c;
+}
+#headMessage a:hover {
+    color :#ff4400;
+}
+#headMessage a.login {
+    color :#f22e00;
+}
+#headMessage span {
+    margin-left :7px;
+}
+#headMessage strong {
+    font-size :12px;
+    color     :#f22e00;
+}
+/*头部广告*/
+#headAdvertisement {
+    background-color :#f12f04;
+}
+#headAdvertisement a.title {
+    padding :10px 10px 10px 15px;
+}
+#headAdvertisement a.title img {
+    width  :80px;
+    height :80px
+}
+#headAdvertisement ul.content {
+    padding-top :13px;
+}
+#headAdvertisement ul.content li {
+    float      :left;
+    width      :209px;
+    height     :75px;
+    padding    :12px 15px 0 15px;
+    box-sizing :border-box;
+}
+#headAdvertisement ul.content li:nth-child(1) {
+    background   :url("../image/2.jpg");
+    margin-right :10px;
+}
+#headAdvertisement ul.content li:nth-child(2) {
+    background   :url("../image/3.jpg");
+    margin-right :10px;
+}
+#headAdvertisement ul.content li:nth-child(3) {
+    background   :url("../image/4.jpg");
+    margin-right :10px;
+}
+#headAdvertisement ul.content li:nth-child(4) {
+    background   :url("../image/5.jpg");
+    margin-right :10px;
+}
+#headAdvertisement ul.content li:nth-child(5) {
+    background :url("../image/6.jpg");
+}
+#headAdvertisement ul.content a {
+}
+#headAdvertisement ul.content img {
+    float         :right;
+    width         :52px;
+    height        :52px;
+    border-radius :5px;
+}
+#headAdvertisement ul.content h3 {
+    font-size   :20px;
+    line-height :28px;
+    color       :#ffffff
+}
+#headAdvertisement ul.content p {
+    font-size   :14px;
+    line-height :20px;
+    color       :#ffffff
+}
+/*头部搜索*/
+#headSearch {
+    background-color :#ffffff;
+    padding          :24px 0 10px 0
+}
+#headSearch h1.part-left {
+}
+#headSearch h1.part-left a {
+    display     :block;
+    width       :190px;
+    height      :58px;
+    background  :url("../image/logo.png") center no-repeat;
+    text-indent :-99px;
+    overflow    :hidden;
+    margin-top  :7px
+}
+#headSearch div.part-right {
+    width        :72px;
+    height       :86px;
+    border       :1px solid #ffffff;
+    position     :relative;
+    margin-right :110px;
+    text-align   :center
+}
+#headSearch div.part-right span {
+}
+#headSearch div.part-right span:nth-child(1) {
+    position    :absolute;
+    left        :-16px;
+    top         :1px;
+    width       :14px;
+    height      :14px;
+    font-size   :14px;
+    line-height :14px;
+    cursor      :pointer;
+    color       :#dddddd;
+    border      :1px solid #eeeeee;
+}
+#headSearch div.part-right span:nth-child(1):hover {
+    color :#cccccc
+}
+#headSearch div.part-right span:nth-child(2) {
+}
+#headSearch div.part-right img {
+    width  :62px;
+    height :62px
+}
+#headSearch div.part-middle {
+}
+#headSearch div.part-middle {
+    width  :630px;
+    margin :0 auto;
+    border :1px solid #000000;
+}
+#headSearch div.part-middle ul.tab {
+    margin-left :17px;
+}
+#headSearch div.part-middle ul.tab li {
+    float        :left;
+    width        :36px;
+    margin-right :4px;
+    line-height  :22px;
+    text-align   :center;
+    color        :#ff4400;
+    cursor       :pointer;
+}
+#headSearch div.part-middle ul.tab li:hover {
+    background-color :#ffeee5;
+}
+#headSearch div.part-middle ul.tab li.active {
+    color            :#ffffff;
+    font-weight      :bold;
+    background-image :linear-gradient(to right, #ff9000, #ff5000);
+    border-radius    :6px 6px 0 0;
+}
+#headSearch div.part-middle div.search {
+    border :1px solid #000000;
+    width:554px;height:40px;
+    margin:0;
+}
+#headSearch div.part-middle div.hot {
+}
+
+

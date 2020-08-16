@@ -1,0 +1,23 @@
+* {
+    font-family      :Arial, serif;
+    font-style       :normal;
+    font-size        :12px;
+    line-height      :1.5;
+    margin           :0;
+    padding          :0;
+    color            :#3c3c3c;
+    border           :none;
+    outline          :none;
+    list-style       :none;
+    text-decoration  :none;
+    vertical-align   :middle;
+    }
+
+.wrapper {width :1190px;margin :0 auto;}
+.wrapper:after {content :"";display :block;clear :both;}
+.fl {float :left}
+.fr {float :right}
+.clear {clear :both}
+.c4 {color :#ff4400;}
+.mr5 {margin-right :5px;}
+
